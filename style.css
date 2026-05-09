@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box; /* Apply to everything to avoid future layout headaches */
+}
+* { outline: 1px solid red !important; }
+:root {
+  /* This acts like your own custom "keyword" */
+  --box-color: #C76739;
+
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* prevents scrollbars */
+}
+
+/* Game Palette Classes */
+
+.box-color {
+  background-color: #273F4F;
+}
+
+.bg-console { 
+  background-color: #C0C0C0; 
+}
+
+.text-beige { 
+  color: #F5DEB3; 
+  font-size: 4cqw
+
+}
+
+.border-terra { 
+  border: 2px solid #A0522D; 
+}
+
+.player { 
+  background-color: #228B22; 
+} 
+
+.enemy { 
+  background-color: #D0021B; 
+} 
+
+
+
+canvas {
+   /* removes inline spacing */
+   border: 2px solid black;
+}
+
+#mapCreator{
+  display: inline;
+  height: 90vh;
+  width: 100vw;
+  background-color: #C0C0C0;
+}
+
+.hideElement {
+  display: none;
+}
+
+#topBar {
+
+  overflow: hidden;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+}
+
+.topBarOptions {
+    container-type: inline-size;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--box-color);
+    border: 2px solid #A0522D; 
+  width: 100%;
+  height: 100%;
+}
+
+#topBarOpenCloseBtnDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#dropDownBtn {
+width: 30%;
+height: 30%;
+stroke: red;
+}
+
+.mapHeader {
+
+}
+
+.mapNameInput {
+
+}
+
+.readFont {
+  font-family: "DotGothic16", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.headFont {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#rowColInput {
+display: flex;
+flex-direction: row;
+
+}
+
+#rowInput {
+
+}
+
+#colInput {
+
+}
+
+#inputBoxes {
+  display: flex;
+  flex-direction: row;
+}

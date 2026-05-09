@@ -1,0 +1,27 @@
+
+class grid {
+    constructor(cellSize) {
+        this.cellSize = cellSize;
+    }
+
+    gridArray = [];
+    wall = "|";
+    player = "x";
+    
+
+
+    createGridArray(){
+        for (let  = 0;  < array.length; ++) {
+            const element = array[];
+            
+        }
+    }
+
+    updateGrid(){
+
+    }
+
+    renderGrid(){
+
+    }
+}

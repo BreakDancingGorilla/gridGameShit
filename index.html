@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>CanvasTemplate</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <canvas id="gameCanvas"></canvas>
+    <div id="topBar" class="border-terra bg-console ">
+        <div id="topBarOpenCloseBtnDiv" class="topBarOptions">
+            <img id="dropDownBtn" src="./img/caret-down-square.svg" alt="dropDownButton">
+        </div>
+        <div class="topBarOptions">
+            <div id="mapHeader">
+                <span class="headFont text-beige">Enter New Map Name
+                <span>
+            </div>
+            <div id="mapNameInput"></div>
+        </div>
+        <div class="topBarOptions">
+            <div id="rowColHeader">
+                <span class="headFont text-beige">Enter Rows and Columns
+                <span>
+                <div id="inputBoxes">
+                <div class="inputBox">
+                    <span>box</span>
+                    <input>
+                </div>
+                <div class="inputBox">
+                    <span>box</span>
+                    <input>
+                </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="topBarOptions">
+            <div id="saveMapHeader">
+                <span class="headFont text-beige">Save Map
+                <span>
+                <div id="saveMapInput"></div>
+            </div>
+        </div>
+        <div class="topBarOptions">
+            <div id="infoHeader">
+                <span class="readFont text-beige">This is how to work this thing
+                <span>
+
+            </div>
+        </div>
+    </div>
+
+
+    <canvas id="mapCreator"></canvas>
+
+    </div>
+
+
+
+    <script src="./code.js"></script>
+</body>
+
+</html>
